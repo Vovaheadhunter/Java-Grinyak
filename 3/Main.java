@@ -1,5 +1,30 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+
+// Вариант 1
+// Java-библиотека предоставляет класс Character. Предоставьте собственную
+// реализацию следующих методов (назовите новый класс MyCharacter):
+// public MyCharacter(char value);
+// public char charValue();
+// public int compareTo(MyCharacter anotherCharacter);
+// public boolean equals(Object anotherCharacter);
+// public boolean isDigit();
+// public static boolean isDigit(MyCharacter ch);
+// public static boolean isLetter(MyCharacter ch);
+// public static boolean isLetterOrDigit(MyCharacter ch);
+// Вариант 2
+// Java-библиотека предоставляет класс String. Предоставьте собственную
+// реализацию следующих методов (назовите новый класс MyString2):
+// public MyString2(char[] chars);
+// public MyString2 substring(int begin);
+// public MyString2 substring(int begin, int end);
+// public boolean equals(Object obj);
+// public int compareTo(MyString2 obj);
+// public char[] toChars();
+// public static MyString2 valueOf(boolean b);
+
+
 public class Main {
     public static void main(String[] args) {
         MyCharacter v1 = new MyCharacter('5');
